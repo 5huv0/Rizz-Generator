@@ -12,8 +12,8 @@ export default function Navbar() {
       <nav className='flex bg-blue-300 p-3 justify-between'>
 
         <div className='flex '> {/* This is logo and name section */}
-          <img src="./src/images/logo-3.png" alt="" className='h-10'/>
-          <img src="./src/images/name-2.png" alt="" className='h-10' />
+          <img src="./images/logo-3.png" alt="" className='h-10'/>
+          <img src="./images/name-2.png" alt="" className='h-10' />
         </div>
 
         <div className='flex space-x-4'> {/* This is buttons section */}
@@ -30,7 +30,7 @@ export default function Navbar() {
 
 
           <img
-            src={isImageOne ? "./src/images/lite-mode.png" : "./src/images/dark-mode.png"}
+            src={isImageOne ? "./images/lite-mode.png" : "./images/dark-mode.png"}
             onClick={changeImage}
             className='hover:cursor-pointer h-10'
           />
