@@ -32,7 +32,7 @@ export default function Navbar() {
           <img
             src={isImageOne ? "./src/images/lite-mode.png" : "./src/images/dark-mode.png"}
             onClick={changeImage}
-            className='hover:cursor-pointer'
+            className='hover:cursor-pointer h-10'
           />
         
           
