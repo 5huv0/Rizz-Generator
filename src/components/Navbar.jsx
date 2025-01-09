@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link, NavLink } from 'react-router-dom';
 
 export default function Navbar() {
 
@@ -14,25 +15,39 @@ export default function Navbar() {
   return (
     //  <div style={{backgroundColor : color}} >
       <nav className='flex bg-gray-300 p-3 justify-between drop-shadow-lg'>
-          <div className='flex '> {/* This is logo and name section */}
-            <img src="./images/logo-3.png" alt="" className='h-10'/>
-            <img src="./images/name-2.png" alt="" className='h-10' />
+          <div className='flex'> {/* This is logo and name section */}
+            <Link to="/" className='flex'>
+              <img src="./images/logo-3.png" alt="" className='h-10'/>
+              <img src="./images/name-2.png" alt="" className='h-10' />
+            </Link>
           </div>
 
 
           <div className='flex space-x-4 font-bold font-mono'> {/* This is buttons section */}
-            <button className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'>
+            <NavLink
+              to="/favourites"
+              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+            >
               Favourites
-            </button>
-            <button className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'>
+            </NavLink>
+            <NavLink
+              to="/addrizz"
+              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+            >
               Add Your Rizz
-            </button>
-            <button className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'>
-               Features
-            </button>
-            <button className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'>
+            </NavLink>
+            <NavLink
+              to="/features"
+              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+            >
+              Features
+            </NavLink>
+            <NavLink
+              to="/contacts"
+              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+            >
               Contacts
-            </button>
+            </NavLink>
             <img
               src={isImageOne ? "./images/lite-mode.png" : "./images/dark-mode.png"}
               onClick={changeImage}

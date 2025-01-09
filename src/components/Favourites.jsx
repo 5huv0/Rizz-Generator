@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Addrizz() {
+export default function Favourites() {
   return (
     <div>
       <p>
-        addrizz
+        rizz's
       </p>
     </div>
   )
