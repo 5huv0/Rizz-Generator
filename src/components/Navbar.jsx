@@ -26,31 +26,31 @@ export default function Navbar() {
           <div className='flex space-x-4 font-bold font-mono'> {/* This is buttons section */}
           <NavLink
               to="/rizzgen"
-              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+              className=' text-black p-3 rounded-xl hover:underline hover:!text-blue-500'
             >
               Create Rizz
             </NavLink>
             <NavLink
               to="/favourites"
-              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+              className=' text-black p-3 rounded-xl hover:underline  hover:!text-blue-500'
             >
               Favourites
             </NavLink>
             <NavLink
               to="/addrizz"
-              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+              className=' text-black p-3 rounded-xl hover:underline  hover:!text-blue-500'
             >
               Add Your Rizz
             </NavLink>
             <NavLink
               to="/features"
-              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+              className=' text-black p-3 rounded-xl hover:underline  hover:!text-blue-500'
             >
               Features
             </NavLink>
             <NavLink
               to="/contacts"
-              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+              className=' text-black p-3 rounded-xl hover:underline  hover:!text-blue-500'
             >
               Contacts
             </NavLink>
