@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <p className='font-black font-mono'>
-      A Rizz Generator is a fun, interactive website designed to help users create engaging, witty, or flirty pickup lines (commonly referred to as "rizz"). The website primarily serves as a tool for humor, entertainment, and social interaction, catering to people looking to spice up their conversations with clever or playful remarks.
+      A Rizz Generator is a fun, interactive website designed to help users create engaging, witty, or flirty pickup lines commonly referred to as "rizz". The website primarily serves as a tool for humor, entertainment, and social interaction, catering to people looking to spice up their conversations with clever or playful remarks.
 
       Key Uses:
       Generate Creative Pickup Lines:
@@ -17,16 +17,16 @@ export default function Home() {
       A collaborative feature lets users contribute their own creative pickup lines. This makes the platform dynamic and interactive, as it grows with user-generated content. It also fosters a sense of community where users share and enjoy each other's humor.
 
       Explore Features and Ideas:
-      The website might include additional features such as categorizing pickup lines based on themes (e.g., romantic, funny, or situational) or even gamifying the experience with challenges like "Rizz Battles" to see who can come up with the best lines.
+      The website might include additional features such as categorizing pickup lines based on themes e.g., romantic, funny, or situational or even gamifying the experience with challenges like "Rizz Battles" to see who can come up with the best lines.
 
       Connect and Interact:
       The site could also encourage users to use the lines in real conversations, share their experiences, or post on social media with hashtags, adding an element of social engagement.
 
-      Who It’s For:
-      The Rizz Generator appeals to a wide audience, particularly younger users active on social media or dating apps, where creative and witty communication is often a key to breaking the ice. It’s perfect for people who enjoy humor, creative writing, or simply need inspiration to craft a memorable pickup line.
+      Who Its For:
+      The Rizz Generator appeals to a wide audience, particularly younger users active on social media or dating apps, where creative and witty communication is often a key to breaking the ice. It is perfect for people who enjoy humor, creative writing, or simply need inspiration to craft a memorable pickup line.
 
       Overall Goal:
-      The purpose of the Rizz Generator is to provide a lighthearted, enjoyable experience, encouraging creativity and fostering fun interactions in the digital world. Whether for laughs or genuine use, it’s a playful way to bring people together through humor and wit.
+      The purpose of the Rizz Generator is to provide a lighthearted, enjoyable experience, encouraging creativity and fostering fun interactions in the digital world. Whether for laughs or genuine use, it is a playful way to bring people together through humor and wit.
       </p>
     </div>
   )
