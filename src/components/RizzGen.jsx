@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function RizzGen() {
   return (
-    <div>
+    <div className=''>
 
       <div className='bg-slate-500 h-36'>
         <p className='text-xl font-serif text-white'>
