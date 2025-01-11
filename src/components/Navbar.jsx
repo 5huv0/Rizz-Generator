@@ -24,6 +24,12 @@ export default function Navbar() {
 
 
           <div className='flex space-x-4 font-bold font-mono'> {/* This is buttons section */}
+          <NavLink
+              to="/rizzgen"
+              className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
+            >
+              Create Rizz
+            </NavLink>
             <NavLink
               to="/favourites"
               className=' text-black p-3 rounded-xl hover:text-blue-600 hover:underline'
