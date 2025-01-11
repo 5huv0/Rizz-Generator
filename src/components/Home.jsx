@@ -3,8 +3,30 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquid molestiae hic explicabo vero? Dicta, veritatis ab! A, consequuntur. Corporis, eos nisi et in mollitia ipsam recusandae id ex? Quasi quibusdam minima unde voluptatum illo nobis aspernatur quod cupiditate inventore similique recusandae earum hic id atque obcaecati, fugiat laborum est tempore, quos veniam voluptatem doloribus porro quis reprehenderit. Consectetur fugiat voluptatum beatae explicabo ex quis a dolore cupiditate commodi quibusdam, dolor ipsa architecto iusto? Aliquid aspernatur recusandae molestiae. Modi impedit omnis doloribus, nobis voluptates deserunt tenetur saepe quibusdam adipisci, error ab exercitationem illo perferendis. Nobis excepturi fugit maiores soluta iure. Iure incidunt voluptates ipsam quae, sint libero alias consequuntur velit ipsum sed impedit corrupti dignissimos deserunt autem a, perferendis tenetur exercitationem atque sapiente. Dicta pariatur nisi nesciunt excepturi neque at laborum! In quae provident accusamus dolore obcaecati sed maiores totam tempore facilis repellat unde error quidem distinctio enim, quia dolorem ipsum cupiditate omnis nihil nobis! Doloremque ab magnam, quod omnis labore blanditiis voluptas odio cumque nam, sequi ratione similique! Saepe voluptate autem consectetur, quisquam inventore iusto deserunt dicta reprehenderit sequi laudantium, voluptatum itaque aliquam possimus suscipit! Perspiciatis rem aliquam provident inventore tempora! Non officiis recusandae, natus saepe sunt velit laborum quia exercitationem possimus repellendus animi eveniet atque libero! Itaque deleniti quia debitis, pariatur dolorum quibusdam corporis sint molestiae perspiciatis labore quod eius! Alias earum sunt molestias libero eum perspiciatis a optio iusto quod iste, enim totam porro quas commodi modi beatae tempora officiis adipisci natus itaque asperiores culpa veritatis vitae accusantium! Assumenda, maxime exercitationem veritatis autem animi aliquam! Nemo consectetur recusandae inventore sunt adipisci rerum distinctio id commodi, dolore laudantium vero. Ratione veniam consequuntur, reprehenderit nemo aperiam obcaecati, ipsam beatae quasi nostrum explicabo animi optio. Iure quo, autem placeat sed commodi sint a rem possimus ipsam ad totam. Excepturi id minima praesentium recusandae aliquam perferendis sed, reiciendis adipisci autem numquam, atque cumque illo architecto porro, animi possimus! Necessitatibus, harum quod doloribus non quos earum quia eaque aliquid tempore! At cupiditate, sint assumenda nihil ea fugiat non sit. Quisquam eius non explicabo aut fugit recusandae nemo, error dolorum. Dolorum hic laudantium delectus molestias error libero vel rem sequi, fugit perspiciatis atque veniam ea quo eveniet, earum similique saepe nostrum, nobis neque a esse! Nostrum exercitationem aliquid assumenda praesentium incidunt veritatis autem qui. Repudiandae dolorem aliquam pariatur ipsa vitae. Dolore nulla, maiores sapiente laborum dolorum veritatis voluptas? Saepe quos totam inventore numquam?
+      <p className='font-black font-mono'>
+      A Rizz Generator is a fun, interactive website designed to help users create engaging, witty, or flirty pickup lines (commonly referred to as "rizz"). The website primarily serves as a tool for humor, entertainment, and social interaction, catering to people looking to spice up their conversations with clever or playful remarks.
+
+      Key Uses:
+      Generate Creative Pickup Lines:
+      The Rizz Generator allows users to instantly create a variety of pickup lines with just a click. These lines may range from funny and quirky to charming and bold. This feature is ideal for users who want to add some humor to their text messages, social media interactions, or casual conversations.
+
+      Save Favorites:
+      Users can save their favorite lines for later use. By storing their preferred “rizz,” users can build a personal collection of go-to lines that they find most effective, funny, or suitable for different occasions.
+
+      Submit Your Own Rizz:
+      A collaborative feature lets users contribute their own creative pickup lines. This makes the platform dynamic and interactive, as it grows with user-generated content. It also fosters a sense of community where users share and enjoy each other's humor.
+
+      Explore Features and Ideas:
+      The website might include additional features such as categorizing pickup lines based on themes (e.g., romantic, funny, or situational) or even gamifying the experience with challenges like "Rizz Battles" to see who can come up with the best lines.
+
+      Connect and Interact:
+      The site could also encourage users to use the lines in real conversations, share their experiences, or post on social media with hashtags, adding an element of social engagement.
+
+      Who It’s For:
+      The Rizz Generator appeals to a wide audience, particularly younger users active on social media or dating apps, where creative and witty communication is often a key to breaking the ice. It’s perfect for people who enjoy humor, creative writing, or simply need inspiration to craft a memorable pickup line.
+
+      Overall Goal:
+      The purpose of the Rizz Generator is to provide a lighthearted, enjoyable experience, encouraging creativity and fostering fun interactions in the digital world. Whether for laughs or genuine use, it’s a playful way to bring people together through humor and wit.
       </p>
     </div>
   )
