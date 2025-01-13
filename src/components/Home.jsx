@@ -6,7 +6,7 @@ export default function Home() {
       <p className='font-black font-mono'>
       A Rizz Generator is a fun, interactive website designed to help users create engaging, witty, or flirty pickup lines commonly referred to as "rizz". The website primarily serves as a tool for humor, entertainment, and social interaction, catering to people looking to spice up their conversations with clever or playful remarks.
 
-      Key Uses:
+      Key Uses::::::
       Generate Creative Pickup Lines:
       The Rizz Generator allows users to instantly create a variety of pickup lines with just a click. These lines may range from funny and quirky to charming and bold. This feature is ideal for users who want to add some humor to their text messages, social media interactions, or casual conversations.
 
