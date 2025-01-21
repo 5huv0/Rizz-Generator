@@ -26,10 +26,87 @@ export default function Features() {
       </div> 
 
       <div> {/* div section 2 */}
+
         <p className='font-mono font-extrabold text-5xl flex justify-center align-middle'>
           Features
         </p>
+
+
+        <div className='grid grid-cols-3 gap-4 m-7'>
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/calendar-logo.png" alt="" className='size-9' />
+              <p className="card-text">Make Schedule with your partner and let us know.</p>
+              <button className="bg-blue-500 rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/fav-logo.png" alt="" className='size-9'/>
+              <p className="card-text">You can favourite your rizz lines by making an account.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+          
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/publish-logo.png" alt="" className='size-9'/>
+              <p className="card-text">You can Publish your rizz line and save it to our database.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/pushpin-logo.png" alt="" className='size-9'/>
+              <p className="card-text">You can Pin your favourite rizz line and use it anyday.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/mobile-logo.png" alt="" className='size-9'/>
+              <p className="card-text">We provide the Downloading option of your rizz lines.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/upload-logo.png" alt="" className='size-9'/>
+              <p className="card-text">We provide the Uploading option of your rizz lines.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/non18-logo.png" alt="" className='size-9'/>
+              <p className="card-text">We don not support any kind of 18+ lines in our site.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/non18-logo.png" alt="" className='size-9'/>
+              <p className="card-text">We don not support any kind of 18+ lines in our site.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+
+          <div className="card text-center w-72" >
+            <div className="card-body m-5">
+              <img src="./images/chat-logo.png" alt="" className='size-9'/>
+              <p className="card-text">Now you can connect with others and talk anonymously.</p>
+              <button className="bg-blue-500  rounded-xl p-2 hover:text-white">Go somewhere</button>
+            </div>
+          </div>
+        </div>
     </div>
-    </div>
+  </div>
   )
 }
