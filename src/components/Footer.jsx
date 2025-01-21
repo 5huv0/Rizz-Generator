@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 
 export default function Footer() {
   return (
-    <div className='bg-slate-500 w-full fixed bottom-0 left-0 right-0 flex justify-around'>
+    <div className='bg-slate-500 w-full  bottom-0 left-0 right-0 flex justify-around'>
       <div className='flex flex-col items-start'>
         <p className='font-bold font-mono text-black text-4xl p-3'>
             Be Cheezy
