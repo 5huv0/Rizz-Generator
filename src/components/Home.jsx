@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
   return (
     <div>
-      <p className='font-black font-mono'>
+      <p className='font-black font-mono p-9'>
       A Rizz Generator is a fun, interactive website designed to help users create engaging, witty, or flirty pickup lines commonly referred to as "rizz". The website primarily serves as a tool for humor, entertainment, and social interaction, catering to people looking to spice up their conversations with clever or playful remarks.
 
       Key Uses::::::
