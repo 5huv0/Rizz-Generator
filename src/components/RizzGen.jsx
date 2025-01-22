@@ -1,4 +1,10 @@
-import React from 'react'
+import React from 'react';
+import banglaRizz from './RizzDataBan';
+import englishRizz from './RizzDataEng';
+import hindiRizz from './RizzDataHin';
+import spanishRizz from './RizzDataSpn';
+
+
 
 
 export default function RizzGen() {
