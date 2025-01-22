@@ -28,7 +28,8 @@ export default function Navbar() {
               to="/rizzgen"
               className=' text-black p-3 rounded-xl hover:underline hover:!text-blue-500'
             >
-              Create Rizz
+              
+              Generate Rizz
             </NavLink>
             <NavLink
               to="/favourites"

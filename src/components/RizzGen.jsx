@@ -3,16 +3,16 @@ import React from 'react'
 
 export default function RizzGen() {
   return (
-    <div className=''>
+    <div className='bg-blue-500'>
 
-      <div className='bg-slate-500 h-36'>
-        <p className='text-xl font-serif text-white'>
+      <div className=' p-16 flex justify-center items-center'>
+        <p className='text-4xl font-extrabold font-mono text-white'>
           You can Generate Free Cheezy pick up Lines Here !!!!!!
         </p>
       </div>
       
-      <div  className="dropdown">
-        <button  className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <div  className="dropdown flex justify-center items-center p-5">
+        <button  className="btn btn-secondary dropdown-toggle p-6" type="button" data-bs-toggle="dropdown" aria-expanded="false">
           Choose Your Language
         </button>
         <ul  className="dropdown-menu ">
@@ -23,10 +23,12 @@ export default function RizzGen() {
         </ul>
       </div>
 
-      <div className='bg-amber-600 text-xl font-serif'>
-        <p>Aren't you worried about global warming? Because you're making it hot in here.</p>
-        <button className='bg-emerald-300 font-bold p-3 rounded-xl'>
-          Another One +
+      <div className='text-xl font-serif flex justify-center items-center flex-col p-4'>
+        <p className='text-2xl font-bold font-mono text-white border-4 p-5'>
+          Aren't you worried about global warming? Because you're making it hot in here.
+        </p>
+        <button className='bg-emerald-300 font-bold p-3 rounded-xl flex justify-center items-center m-5'>
+          Another One <img src="./images/loop-logo.png" alt="" className='size-5'/>
         </button>
       </div>
     </div>
