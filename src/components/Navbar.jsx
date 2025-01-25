@@ -5,12 +5,18 @@ export default function Navbar() {
 
   // const [color, setColor] = useState("#FFFFFF")
 
+  // const blackColor = function black(){
+  //   setColor("black")
+  // }
+
   const [isImageOne, setIsImageOne] = useState(true);
 
   const changeImage = () => {
     setIsImageOne(!isImageOne); // Toggle the state
     // setColor("#000000")
   };
+
+
 
   return (
     //  <div style={{backgroundColor : color}} >
