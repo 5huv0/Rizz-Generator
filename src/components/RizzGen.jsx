@@ -5,8 +5,6 @@ import hindiRizz from './RizzDataHin';
 import spanishRizz from './RizzDataSpn';
 
 
-
-
 export default function RizzGen() {
   const[selectedLang , setSelectedLang] = useState('english')
   const[currentRizz , setCurrentRizz] = useState('')
