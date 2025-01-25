@@ -11,9 +11,12 @@ function App() {
 
   return (
     <>
+    <div>
       <Navbar/>
       <Outlet/>
       <Footer/>
+    </div>
+      
     </>
   )
 }

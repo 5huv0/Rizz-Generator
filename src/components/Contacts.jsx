@@ -5,13 +5,13 @@ export default function Contacts() {
   return (
     <div className='flex flex-col items-center justify-center h-screen'>
 
-      <div className='bg-green-500 w-9/12 p-20 flex justify-center'> {/* This is text head part*/}
-        <p className='font-extrabold text-7xl flex font-serif'>
+      <div className='bg-blue-500 w-9/12 h-80 p-20 flex justify-center'> {/* This is text head part*/}
+        <p className='font-extrabold text-7xl flex font-serif text-white'>
           Connect with me Here
         </p>
       </div>
 
-      <div className='bg-green-500 w-9/12 p-10 flex justify-center gap-5 '> {/* This is linkings part*/}
+      <div className='bg-blue-500 w-9/12 p-10 flex justify-center gap-5 '> {/* This is linkings part*/}
         <button className='hover:bg-green-200 rounded-full w-16 h-8 justify-center flex transition ease-in-out delay-100'>
             <Link
               to="https://github.com/5huv0"
